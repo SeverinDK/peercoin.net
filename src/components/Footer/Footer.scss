@@ -131,5 +131,10 @@
     font-size: 14px;
     padding: 35px 0;
     text-align: center;
+
+    @include viewports(up-to small) {
+      padding: 35px 20px;
+      font-size: 1.25rem;
+    }
   }
 }
